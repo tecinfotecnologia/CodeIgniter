@@ -7,7 +7,7 @@
  <body>
     <h1>Produtos</h1>
 
-    <table>
+    <table width="270px" cellspacing="0px" cellpadding="0px" border="1px">
         <thead>
             <tr>
                  <th>Código</th>
@@ -24,6 +24,8 @@
                    "   <td>".$p->preco."</td>".
                    "   </tr>";
              }
+            
+             
         ?>
         </tbody>
     </table>
