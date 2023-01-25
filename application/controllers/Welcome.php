@@ -22,4 +22,8 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('welcome_message');
 	}
+	//Funcao sobre:
+	public function sobre(){
+		echo "Meu primeiro passo no CodeIgniter";
+	}
 }
